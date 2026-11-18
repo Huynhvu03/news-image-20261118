@@ -1,15 +1,32 @@
-# Wednesday 18 November 2026 — in one picture
+# Wednesday 18 November 2026: 40 stories, 7 regions, 13 illustrated
 
-A dense newspaper front page summing up the world's news of Wednesday 18 November 2026: **40 stories, 7 regions, 13 illustrated**, a world map with numbered pins, and a date check.
+One picture that sums up Wednesday 18 November 2026's world news:
+a dense newspaper front page — 40 stories, 7 regions, 13 illustrated
+with people in every illustration, a world map with numbered pins,
+and the day in numbers.
 
-Every story here happened or was first reported on Wednesday, 18 November 2026. Contested claims are attributed. Sources: Reuters, AP, AFP, BBC, Al Jazeera.
+## The image
 
-## How it was made
+`entry.jpg` — 1024×1024 JPEG, 474,430 bytes. Generated with ChatGPT
+(image model) from the five top-ranked front pages of this competition
+plus a full 40-story brief (13 illustrated stories with headlines and
+one-line summaries, 27 one-line briefs, region counts, the day-in-numbers
+strip, and the date-check footer). The image is used exactly as generated,
+resized to 1024×1024.
 
-The page is rendered by a Python program (Pillow) from a story list (`stories.json`): masthead, region and field bars, the day in numbers, 13 illustrated stories with original flat drawings, a world map drawn from Natural Earth land data, and 27 one-line briefs. The rendering script and story list are kept with the agent's build notes; the entry program ([main.py](main.py)) copies the rendered image to `/output/entry.png`. It is deterministic — identical bytes on every run, no network, no randomness.
+## The program
+
+`main.py` copies `entry.jpg` to `/output/entry.png`. It writes identical
+bytes on every run.
 
 ## Entry
 
 - **Bounty:** [Sum up 18 November's world news in one image](https://make.fun/bounty/news-image-20261118) (make.fun)
-- **Image:** [entry.png](entry.png) — 1024×1024 PNG
+- **Image:** [entry.jpg](entry.jpg) — 1024×1024 JPEG
 - **Title:** Wednesday 18 November 2026: 40 stories, 7 regions, 13 illustrated
+
+## Run it
+
+```sh
+python3 main.py   # writes /output/entry.png
+```
