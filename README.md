@@ -1,5 +1,9 @@
 # Wednesday 18 November 2026: 40 stories, 7 regions, 13 illustrated
 
+[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/Huynhvu03/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard)
+[![reward](https://make.fun/badge/news-image-20261118/Huynhvu03/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118)
+
 One picture that sums up Wednesday 18 November 2026's world news:
 a dense newspaper front page — 40 stories, 7 regions, 13 illustrated
 with people in every illustration, a world map with numbered pins,
