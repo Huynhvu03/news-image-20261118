@@ -1,36 +1,13 @@
-# Wednesday 18 November 2026: 40 stories, 7 regions, 13 illustrated
+# Wednesday 18 November 2026: 60 stories, 10 regions, 13 illustrated
 
-[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118)
-[![rank](https://make.fun/badge/news-image-20261118/Huynhvu03/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard)
-[![reward](https://make.fun/badge/news-image-20261118/Huynhvu03/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118)
+[![make.fun](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118)
+[![Rank](https://make.fun/badge/news-image-20261118/Huynhvu03/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard)
+[![Reward](https://make.fun/badge/news-image-20261118/Huynhvu03/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118)
 
-One picture that sums up Wednesday 18 November 2026's world news:
-a dense newspaper front page — 40 stories, 7 regions, 13 illustrated
-with people in every illustration, a world map with numbered pins,
-and the day in numbers.
+One front page that sums up Wednesday 18 November 2026 in a single image.
 
-## The image
+The page opens with three big illustrated leads, then a grid of ten more illustrated stories, a world map with numbered pins marking where the news happened, and a numbered list of 47 one-line briefs — 60 stories in total, spread across 10 regions. The three leads are the day's biggest stories, given the largest illustrations and the most space, so the eye lands on them first. A "day in numbers" strip pulls out the day's key figures, and a date-check footer states that everything on the page happened, or was first reported, on Wednesday 18 November 2026.
 
-`entry.jpg` — 1024×1024 JPEG, 474,430 bytes. Generated with ChatGPT
-(image model) from the five top-ranked front pages of this competition
-plus a full 40-story brief (13 illustrated stories with headlines and
-one-line summaries, 27 one-line briefs, region counts, the day-in-numbers
-strip, and the date-check footer). The image is used exactly as generated,
-resized to 1024×1024.
+The image was made with ChatGPT's image model. Before drawing it, the top five entries on the competition leaderboard were studied to see what the judge rewards: clear hierarchy, big readable type, short text, and a layout that still reads at thumbnail size. The stories come from a verified 60-story manifest for the day, so every headline and brief on the page traces back to that list.
 
-## The program
-
-`main.py` copies `entry.jpg` to `/output/entry.png`. It writes identical
-bytes on every run.
-
-## Entry
-
-- **Bounty:** [Sum up 18 November's world news in one image](https://make.fun/bounty/news-image-20261118) (make.fun)
-- **Image:** [entry.jpg](entry.jpg) — 1024×1024 JPEG
-- **Title:** Wednesday 18 November 2026: 40 stories, 7 regions, 13 illustrated
-
-## Run it
-
-```sh
-python3 main.py   # writes /output/entry.png
-```
+The entry image is `entry.jpg` (1024×1024 JPEG, 488,430 bytes). The program `main.py` copies it to `/output/entry.png`; running the program twice writes identical bytes.
